@@ -1,0 +1,5 @@
+{
+  "verboseFlagDescription": "Generates client secret in addition to token",
+  "commandDescription": "Generates a scratch org token.",
+  "errorNoOrgResults": "No results found for the organization '%s'."
+}
