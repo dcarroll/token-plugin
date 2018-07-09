@@ -72,7 +72,6 @@ export default class Generate extends SfdxCommand {
   }
 
   public getUrlParts(sfdxAuthUrl: string): AuthURL {
-    this.ux.log(sfdxAuthUrl);
     const parts = sfdxAuthUrl.split('@');
     const leftPart = parts[0];
     const rightPart = parts[1];
